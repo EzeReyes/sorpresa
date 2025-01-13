@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+  }
+
+.about-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 20rem;
+}
+  
+  .container {
+    text-align: center;
+    padding: 0 15px; /* Agregado para ajustar márgenes en pantallas pequeñas */
+  }
+  
+  .container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+  }
+  
+  .sorpresa-container {
+    text-align: center;
+  }
+  
+  .sorpresa-imagen {
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .youtube-video iframe {
+    width: 80%;
+    height: 315px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Versión Mobile */
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+      height: auto; /* Ajustar para scroll en pantallas pequeñas */
+      padding: 20px;
+    }
+  
+    .container h1 {
+      font-size: 2rem; /* Tamaño más pequeño para pantallas móviles */
+    }
+  
+    .container p {
+      font-size: 1rem;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .youtube-video iframe {
+      width: 100%; /* Usar el 100% del ancho disponible */
+      height: 200px; /* Reducir altura en móviles */
+    }
+  
+    .sorpresa-imagen {
+      max-width: 100%; /* Usar todo el ancho disponible */
+      margin: 10px auto;
+    }
+  }
+  
+  /* Ajustes adicionales para pantallas ultrapequeñas */
+  @media (max-width: 480px) {
+    .container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .container p {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  

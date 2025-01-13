@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Sorpresa!</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff4f6;
+      color: #333;
+      text-align: center;
+    }
+
+    .sorpresa-container {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ff4081;
+      margin-bottom: 20px;
+      animation: fadeIn 2s;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ff6f91;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin: 15px 0;
+    }
+
+    .sorpresa-imagen {
+      max-width: 60%;
+      height: auto;
+      border-radius: 15px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: bounce 2s infinite alternate;
+    }
+
+    .image-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    .image-grid img {
+      max-width: 45%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 3s;
+    }
+
+    .youtube-audio {
+      margin: 20px 0;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="sorpresa-container">
+    <h1>¡Tenemos Grandes Noticias!</h1>
+    <p>Descubre quien está en camino...</p>
+    <img src="/bebe.jpeg" alt="¡Seremos Padres!" class="sorpresa-imagen">
+
+    <div class="image-grid">
+      <img src="/micaEze.jpeg" alt="Foto familiar">
+      <img src="/fotito.webp" alt="Medias de bebé">
+    </div>
+
+    <h2>¡Vamos a ser padres!</h2>
+    <p>Este viaje está lleno de amor, risas y momentos inolvidables. ¡Gracias por ser parte de nuestra felicidad!</p>
+
+    <!-- Reproductor de YouTube con solo audio -->
+    <div class="youtube-audio">
+      <iframe width="0" height="0" 
+        src="https://www.youtube.com/embed/ks689l5ohhw?autoplay=1&controls=0" 
+        title="YouTube audio player" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p>Con mucho amor, Mica y Eze ❤️</p>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Nuestra Familia. Con amor, siempre juntos.</p>
+  </footer>
+</body>
+</html>
