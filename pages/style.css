@@ -202,8 +202,6 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-
     @media (max-width: 480px) {
         body {
             display: flex;
@@ -248,5 +246,4 @@ footer {
         padding: 6px 12px;
         font-size: 0.8rem;
     }
-}
 }
